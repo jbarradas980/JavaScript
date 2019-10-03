@@ -4,14 +4,9 @@
 		//i: Valida min y mayus
 		const patt_usuario=/[A-Z]/i; //Patrón para usuarios
 		const patt_password=/[0-9|_|A-Z]/i; //Patrón para contraseñas
-		var resp_tam=0;
 		input_usr = document.getElementById("inUsr");
 		input_pwd = document.getElementById("inPwd");
-		/*var prueba="Hola";
-		for (x in prueba){
-			alert(prueba.charAt(x));
-		}*/
-		1
+
 		function comparaExpresion(expresion, valor){
 			//Expresión: Patrón a comparar con el valor.
 			//Valor: Cadena/Carácter que se validará.
